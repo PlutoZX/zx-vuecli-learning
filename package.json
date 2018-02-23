@@ -1,0 +1,23 @@
+{
+  "name": "zx-vuecli-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli": "^3.0.0-beta.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlutoZX/zx-vuecli-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlutoZX/zx-vuecli-learning/issues"
+  },
+  "homepage": "https://github.com/PlutoZX/zx-vuecli-learning#readme"
+}
