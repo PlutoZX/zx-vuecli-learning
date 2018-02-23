@@ -1,11 +1,18 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div class="hello">
+        <h1>{{ msg }}</h1>
+        <div class="hasbgimg1">
 
-  </div>
+        </div>
+        <div class="hasbgimg2">
+            <img src="../assets/img/pan.png" alt="">
+        </div>
+    </div>
 </template>
 
 <script>
+    console.log(window.jdShare);
+
 export default {
   name: 'HelloWorld',
   props: {
@@ -15,7 +22,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h3 {
   margin: 40px 0 0;
 }
@@ -30,4 +37,24 @@ li {
 a {
   color: #42b983;
 }
+.hasbgimg1 {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0;
+    background-image: url("../assets/img/pan.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.hasbgimg2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 </style>

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>zx.ico">
+    <link rel="shortcut icon" href="<%= webpackConfig.output.publicPath %>img/zx.ico">
     <title>my-vue3</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+
+<!-- 恶心的外部不支持import的资源该怎么做 放在public里 -->
+<script src="<%= webpackConfig.output.publicPath %>js/jdShare.js"></script>
+</body>
 </html>
