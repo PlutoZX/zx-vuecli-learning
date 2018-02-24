@@ -11,7 +11,7 @@
 </template>
 
 <script>
-    console.log(window.jdShare);
+    // console.log(window.jdShare); 测试外部引入的js
 
 export default {
   name: 'HelloWorld',

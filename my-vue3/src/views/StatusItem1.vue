@@ -1,15 +1,16 @@
 <template>
     <div>
-        <h1>lalalalalala</h1>
-        <router-view></router-view>
+        <h2>嘟嘟嘟嘟</h2>
     </div>
 </template>
 
+
 <script>
     export default {
-        name: "Status"
+        name: "status-item1"
     }
 </script>
+
 
 <style scoped>
 
